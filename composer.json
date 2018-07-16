@@ -1,0 +1,24 @@
+{
+    "name": "bitfumes/spamfree",
+    "description": "It detect spam in any text input",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Bitfumes",
+        "email": "bitfumes@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bitfumes\\Spamfree\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bitfumes\\Spamfree\\SpamfreeServiceProvider"
+            ]
+        }
+    }
+}
