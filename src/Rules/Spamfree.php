@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfumes\Spamfree\Rules;
+namespace Bitfumes\SpamFree\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
 use Bitfumes\Spamfree\Main\Spam;

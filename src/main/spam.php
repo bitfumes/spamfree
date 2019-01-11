@@ -1,9 +1,9 @@
 <?php
 
-namespace Bitfumes\Spamfree\Main;
+namespace Bitfumes\SpamFree\Main;
 
-use Bitfumes\Spamfree\Detect\InvalidKeyword;
-use Bitfumes\Spamfree\Detect\KeyHeldDown;
+use Bitfumes\SpamFree\Detect\InvalidKeyword;
+use Bitfumes\SpamFree\Detect\KeyHeldDown;
 
 class Spam
 {

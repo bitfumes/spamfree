@@ -1,24 +1,27 @@
-# Introduction
+# spam-free
 
-This is a simple spam detector which currently detect only keyheld down and invalid keyword.
-This is just a package for the spam system created by Jeffrey Way in its Lets Build Forum Series at Laracast, [Let's Build a forum with Laravel](https://laracasts.com/series/lets-build-a-forum-with-laravel)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+[![Travis](https://img.shields.io/travis/bitfumes/spam-free.svg?style=flat-square)]()
+[![Total Downloads](https://img.shields.io/packagist/dt/bitfumes/spam-free.svg?style=flat-square)](https://packagist.org/packages/bitfumes/spam-free)
 
-# Installation
+## Install
+`composer require bitfumes/spam-free`
 
-`Composer require bitfumes/spamfree`
+## Usage
+Write a few lines about the usage of this package.
 
-# Usage
+## Testing
+Run the tests with:
 
-Once you have the package in your project then you just need to use this in your request validation.Like if you want to protect body then
+``` bash
+vendor/bin/phpunit
+```
 
-`'body' : ['required',new Spamfree]`
+## Contributing
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-Use Bitfumes\Spamfree\Rules\Spamfree at the top where you have your validation.
-
-## Credits
-
-Based on work originally created by Jeffrey Way: <https://github.com/JeffreyWay>
+## Security
+If you discover any security-related issues, please email sarthak@bitfumes.com instead of using the issue tracker.
 
 ## License
-
-This work is MIT-licensed
+The MIT License (MIT). Please see [License File](/LICENSE.md) for more information.

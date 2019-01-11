@@ -1,6 +1,6 @@
 <?php
 
-namespace Bitfumes\Spamfree\Detect;
+namespace Bitfumes\SpamFree\Detect;
 
 class KeyHeldDown
 {

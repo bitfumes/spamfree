@@ -1,10 +1,15 @@
 <?php
 
-namespace Bitfumes\Spamfree\Detect;
+namespace Bitfumes\SpamFree\Detect;
 
 class InvalidKeyword
 {
-    public $invalidKeywords = ['Claims you are a winner'];
+    public $invalidKeywords;
+
+    public function __construct()
+    {
+        $this->invalidKeywords = config('spamfree.invalidKeywords');
+    }
 
     public function detect($body)
     {
