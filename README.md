@@ -9,7 +9,7 @@ This is just a package for the spam system created by Jeffrey Way in its Lets Bu
 
 ## Install
 
-`composer require bitfumes/spam-free`
+`composer require bitfumes/spamfree`
 
 # Usage
 

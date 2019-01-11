@@ -3,9 +3,9 @@
 namespace Bitfumes\SpamFree\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use Bitfumes\Spamfree\Main\Spam;
+use Bitfumes\SpamFree\Main\Spam;
 
-class Spamfree implements Rule
+class SpamFree implements Rule
 {
     /**
      * Create a new rule instance.
